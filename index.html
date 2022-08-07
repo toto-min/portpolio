@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>웹 개발자 황정희 입니다.</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/index.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    
+</head>
+<body>
+
+    <header>
+        <ul>
+            <li onclick="about()">ABOUT</li>
+            <li onclick="skills()">SKILLS</li>
+            <li onclick="project()">PROJECT</li>
+            <li onclick="contact()">CONTACT</li>
+        </ul>
+    </header>
+
+    <article>
+        <section class="caps" id="cap1">
+
+            <div id="more-btn">
+                <button onclick="more()">
+                    MORE
+                </button>
+                <div id="more-arrow"></div>
+            </div>
+        </section>
+        <section class="caps" id="cap2">
+            <div id="title">
+                <h1>INTROUDUCE MYSELF</h1>
+            </div>
+            <div class="keywords">
+                <ul>
+                    <li onclick="introduce()">
+                        <p>소개</p>
+                    </li>
+                    <li onclick="career()">
+                        <p>경력</p>
+                    </li>
+                    <!-- <li></li> -->
+                </ul>
+            </div>
+            <div class="keyconts">
+                <p>
+                   introduce my self
+                </p>
+            </div>
+        </section>
+        <section class="caps" id="cap3">
+            <div id="skills">
+                <h1>SKILLS</h1>
+            </div>
+                <ul>
+                    <li class="skill-block" id="skill-block1">
+                        <div class="skill-box" id="skill-box1">
+                            <p>
+                                DESIGN
+                            </p>
+                        </div>
+                        <div id="skill-des" class="skill-list">
+                            <ul id="blue">
+                                <li class="noneboard">
+                                    <p>
+                                        potoshop
+                                    </p>
+                                    <div class="bar">
+                                        <div class="slide"></div>
+                                        <div class="slide2"></div>
+                                    </div>
+                                </li>
+                                <li class="noneboard">
+                                    <p>
+                                        illustrator
+                                    </p>
+                                    <div class="bar">
+                                        <div class="slide"></div>
+                                        <div class="slide2"></div>
+                                    </div>
+                                </li>
+                                <li class="noneboard">
+                                    <p>
+                                        aftereffect
+                                    </p>
+                                    <div class="bar">
+                                        <div class="slide"></div>
+                                        <div class="slide2"></div>
+                                    </div>
+                                </li>
+                                <li class="noneboard">
+                                    <p>
+                                        premiere
+                                    </p>
+                                    <div class="bar">
+                                        <div class="slide"></div>
+                                        <div class="slide2"></div>
+                                    </div>
+                                </li>
+                                <li class="noneboard">
+                                    <p>
+                                        figma
+                                    </p>
+                                    <div class="bar">
+                                        <div class="slide"></div>
+                                        <div class="slide2"></div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="skill-block" id="skill-block2">
+                        <div id="skill-lang" class="skill-list">
+                            <ul id="red">
+                                <li class="noneboard">
+                                    <p>
+                                        html
+                                    </p>
+                                    <div class="bar">
+                                        <div class="slide"></div>
+                                        <div class="slide2"></div>
+                                    </div>
+                                </li>
+                                <li class="noneboard">
+                                    <p>
+                                        css
+                                    </p>
+                                    <div class="bar">
+                                        <div class="slide"></div>
+                                        <div class="slide2"></div>
+                                    </div>
+                                </li>
+                                <li class="noneboard">
+                                    <p>
+                                        js
+                                    </p>
+                                    <div class="bar">
+                                        <div class="slide"></div>
+                                        <div class="slide2"></div>
+                                    </div>
+                                </li>
+                                <li class="noneboard">
+                                    <p>jquery</p>
+                                    <div class="bar">
+                                        <div class="slide"></div>
+                                        <div class="slide2"></div>
+                                    </div>
+                                </li>
+                                <li class="noneboard">
+                                    <p>
+                                        vue.js
+                                    </p>
+                                    <div class="bar">
+                                        <div class="slide"></div>
+                                        <div class="slide2"></div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="skill-box" id="skill-box2">
+                            <p>LANGUAGE /
+                                <br>
+                                FRAMEWORK
+                            </p>
+                        </div>
+                    </li>
+                    <li class="skill-block" id="skill-block3">
+                        <div class="skill-box" id="skill-box3">
+                            <p>
+                                ETC
+                            </p>
+                            
+                        </div>
+                        <div id="skill-etc" class="skill-list">
+                            <ul id="yellow">
+                                <li class="noneboard">
+                                    <p>
+                                        git
+                                    </p>
+                                    <div class="bar">
+                                        <div class="slide"></div>
+                                        <div class="slide2"></div>
+                                    </div>
+                                </li>
+                                <li class="noneboard">
+                                    <p>
+                                        웹 디자인 기능사
+                                    </p>
+                                    <div class="bar">
+                                        <div class="slide"></div>
+                                        <div class="slide2"></div>
+                                    </div>
+                                </li>
+                                <li class="noneboard">
+                                    <p>
+                                        정보처리기사 필기
+                                    </p>
+                                    <div class="bar">
+                                        <div class="slide"></div>
+                                        <div class="slide2"></div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+        </section>
+        <section class="caps" id="cap4">
+            <div id="project">
+                <h1>
+                    PROJECT
+                </h1>
+            </div>
+            <div class="projects">
+            <ul>
+                <li class="projectbox">
+                    <div class="imgbox"></div>
+                    <div class="project-title">
+                        <h1>
+                            우리은행 클론 웹
+                        </h1>
+                    </div>
+                    <div class="project-date">
+                        <p>
+                            2018-08-02
+                        </p>
+                    </div>
+                </li>
+                <li class="projectbox">
+                    <div class="imgbox"></div>
+                    <div class="project-title">
+                        <h1>
+                            casashop 클론 웹
+                        </h1>
+                    </div>
+                    <div class="project-date">
+                        <p>
+                            2018-08-02
+                        </p>
+                    </div>
+                </li>
+                <li class="projectbox">
+                    <div class="imgbox"></div>
+                    <div class="project-title">
+                        <h1>
+                            yes24 클론 웹
+                        </h1>
+                    </div>
+                    <div class="project-date">
+                        <p>
+                            2019-06-04
+                        </p>
+                    </div>
+                </li>
+                <li class="projectbox">
+                    <div class="imgbox"></div>
+                    <div class="project-title">
+                        <h1>
+                            게시판(JAVA)
+                        </h1>
+                    </div>
+                    <div class="project-date">
+                        <p>
+                            2018-08-02
+                        </p>
+                    </div>
+                </li>
+                <li class="projectbox">
+                    <div class="imgbox"></div>
+                    <div class="project-title">
+                        <h1>
+                            vue brandweb
+                        </h1>
+                    </div>
+                    <div class="project-date">
+                        <p>
+                            2022-07-16
+                        </p>
+                    </div>
+                </li>
+                <li class="projectbox">
+                    <div class="imgbox"></div>
+                    <div class="project-title">
+                        <h1>
+                            쇼핑몰 제작
+                        </h1>
+                    </div>
+                    <div class="project-date">
+                        <p>
+                            진행중
+                        </p>
+                    </div>
+                </li>
+                <li class="projectbox">
+                    <div class="imgbox"></div>
+                    <div class="project-title">
+                        <h1>
+                            쇼핑몰 제작
+                        </h1>
+                    </div>
+                    <div class="project-date">
+                        <p>
+                            진행중
+                        </p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+            <div class="arrow-btn">
+                <div id="prev" onclick="prev()"></div>
+                <div id="next" onclick="next()"></div>
+            </div>
+        </section>
+    </article>
+    <footer>
+        <div class="contact-text">
+            <a href="mailto:toto_min4016@naver.com">email : toto_min4016@naver.com</a>
+            <p>phone : 010-4016-9735</p>
+            <p>kakaoId : rall4507</p>
+        </div>
+    </footer>
+
+    <script src="./js/index.js"></script>
+</body>
+</html>
